@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">chapter03</string>
+    <string name="text_value1">横排第一个</string>
+    <string name="text_value2">横排第二个</string>
+    <string name="text_value3">竖排第一个</string>
+    <string name="text_value4">竖排第二个</string>
+</resources>

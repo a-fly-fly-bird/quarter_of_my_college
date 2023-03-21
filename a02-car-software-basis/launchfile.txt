@@ -1,0 +1,12 @@
+启动imu
+roslaunch imu_launch imu_msg.launch
+查看imu数据
+rostopic echo /imu/data_raw
+获取rgb+深度图片
+roslaunch realsense2_camera rs_camera.launch
+启动激光雷达
+roslaunch scout_bringup open_rslidar.launch
+启动建图节点
+roslaunch scout_bringup gmapping.launch
+保存地图
+rosrun map_server map_saver -f PATH
